@@ -1,0 +1,4 @@
+C:\Users\prisc\Source\Repos\httprixyz\SnakeGame\Snake\obj\Release\net6.0-windows\MainWindow.g.cs
+C:\Users\prisc\Source\Repos\httprixyz\SnakeGame\Snake\obj\Release\net6.0-windows\App.g.cs
+C:\Users\prisc\Source\Repos\httprixyz\SnakeGame\Snake\obj\Release\net6.0-windows\Snake_MarkupCompile.cache
+C:\Users\prisc\Source\Repos\httprixyz\SnakeGame\Snake\obj\Release\net6.0-windows\Snake_MarkupCompile.lref
