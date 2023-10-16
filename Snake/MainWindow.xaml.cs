@@ -35,7 +35,7 @@ namespace Snake
             { Direction.Left, 270 }
         };
 
-        private readonly int rows = 20, cols = 20;
+        private readonly int rows = 24, cols = 24;
         private readonly Image[,] gridImages; 
         private GameState gameState;
         private bool gameRunning;
@@ -118,7 +118,7 @@ namespace Snake
                     {
                         Source = Images.Empty,
                         RenderTransformOrigin = new Point(0.5, 0.5)
-                    };
+                };
 
                     images[r, c] = image;
                     GameGrid.Children.Add(image);
@@ -131,7 +131,7 @@ namespace Snake
         {
             DrawGrid();
             DrawSnakeHead();
-            ScoreText.Text = $"SCORE {gameState.Score}";
+            ScoreText.Text = $"Pontos {gameState.Score}";
         }
 
         private void DrawGrid()
@@ -183,7 +183,7 @@ namespace Snake
             await DrawDeadSnake();
             await Task.Delay(1000);
             Overlay.Visibility = Visibility.Visible;
-            OverlayText.Text = "Press any key to start";
+            OverlayText.Text = "Aperte qualquer tecla!";
         }
     }
 }

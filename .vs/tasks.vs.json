@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarefa-MainWindow",
+      "appliesTo": "Snake/MainWindow.xaml",
+      "type": "launch"
+    }
+  ]
+}

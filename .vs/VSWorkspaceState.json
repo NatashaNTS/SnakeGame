@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Snake"
+    "\\Snake",
+    "\\Snake\\bin"
   ],
   "SelectedNode": "\\Snake\\Snake.sln",
   "PreviewInSolutionExplorer": false
